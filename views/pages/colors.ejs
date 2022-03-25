@@ -1,0 +1,7 @@
+<%- include('../partials/header'); %>
+<section class="section colors-section">
+    <% data.forEach(item=> { %>
+    <p class="colors-text text-uppercase text-center" style="color: <%= item.hex  %>"><%= item.name %>(<%= item.hex %>)</p>
+    <% }) %>
+</section>
+<%- include('../partials/footer'); %>

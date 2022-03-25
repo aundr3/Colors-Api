@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+p {
+    color: #fff;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
